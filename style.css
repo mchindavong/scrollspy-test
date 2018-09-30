@@ -1,6 +1,27 @@
 body {
     position: relative;
-    /* margin: auto; */
+}
+
+.nav-item {
+    text-align: right;
+}
+
+.card-body {
+background-color: #009688;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("images/banner.jpg");
+
+    /* Set a specific height */
+    height: 1000px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .div1 {
@@ -19,10 +40,10 @@ body {
 
 #section1 {
     margin: auto;
-    padding-top:100px;
+    padding-top:50px;
     height:500px;
     color: #fff; 
-    background-color: #1E88E5;
+    background-color: #3a924d;
 }
 
 #section2 {
@@ -34,9 +55,9 @@ body {
 }
 
 #section3 {
-    margin: auto;
+    /* margin: auto;
     padding-top:100px;
-    height:500px;
+    height:500px; */
     color: #fff; 
     background-color: #ff9800;
 }
