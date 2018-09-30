@@ -10,14 +10,18 @@ body {
 background-color: #009688;
 }
 
-.parallax { 
-    /* The image used */
+.parallax1 { 
     background-image: url("images/banner.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-    /* Set a specific height */
-    height: 1000px;
-
-    /* Create the parallax scrolling effect */
+.parallax2 { 
+    background-image: url("images/landing.jpg");
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,38 +32,36 @@ background-color: #009688;
     margin: auto;
     max-width: 75%;
     background-color: #dfca6c;
-    padding: 25px;
+    padding: 50px;
 }
 
 .div2 {
     margin: auto;
     width: 100%;
     background-color: #ca56c4;
-    padding: 25px;
+    padding: 50px;
 }
 
 #section1 {
     margin: auto;
     padding-top:50px;
-    height:500px;
-    color: #fff; 
-    background-color: #3a924d;
+    height: 1000px;
+    color: #fff;
+    background: transparent;
 }
 
 #section2 {
     margin: auto;
-    padding-top:100px;
-    height:500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     color: #fff; 
     background-color: #673ab7;
 }
 
 #section3 {
-    /* margin: auto;
-    padding-top:100px;
-    height:500px; */
+    margin: auto;
+    padding: auto;
     color: #fff; 
-    background-color: #ff9800;
 }
 
 #section41 {
