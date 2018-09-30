@@ -1,2 +1,2 @@
 # scrollspy-test
-testing wireframe w/ scrollspy
+testing wireframe w/ bootstrap scrollspy
